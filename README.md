@@ -151,14 +151,14 @@ Eg:
 
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
+  name: "Iwashu Jain",
   profile: "/profile.png",
   designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
+  description: "My name is Iwashu Jain....",
+  email: "iwashuj@gmail.com",
+  phone: "+919131179026",
+  address: "Bhopal, Madhya Pradesh, India",
+  github: "https://github.com/iwashuj",
   facebook: "https://www.facebook.com/abusaid.riyaz/",
   linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
   twitter: "https://twitter.com/said7388",
