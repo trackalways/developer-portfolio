@@ -1,10 +1,12 @@
 const path = require('path')
  
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
   images: {
+    unoptimized: process.env.NODE_ENV === 'production', // Required for Netlify
     remotePatterns: [
       {
         protocol: 'https',
@@ -23,4 +25,12 @@ module.exports = {
       },
     ],
   },
+  // Output as static site for Netlify
+  output: 'export',
+  // Use relative URLs in production
+  trailingSlash: process.env.NODE_ENV === 'production',
+  // Disable Image Optimization API for static export
+  distDir: process.env.NODE_ENV === 'production' ? 'out' : '.next'
 }
+
+module.exports = nextConfig
