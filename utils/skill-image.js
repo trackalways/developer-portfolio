@@ -1,4 +1,12 @@
 import adobeXd from '../app/assets/svg/skills/adobe-xd.svg';
+import adobeIllustrator from '../app/assets/svg/skills/Adobe_Illustrator.png';
+import canvaPng from '../app/assets/svg/skills/Canva.png';
+import capcut from '../app/assets/svg/skills/Capcut.png';
+import davinciResolve from '../app/assets/svg/skills/DaVinci_Resolve_Studio.png';
+import excel from '../app/assets/svg/skills/Excel.png';
+import figmaPng from '../app/assets/svg/skills/Figma.png';
+import powerPoint from '../app/assets/svg/skills/PowerPoint.png';
+import word from '../app/assets/svg/skills/Word.png';
 import adobeaudition from '../app/assets/svg/skills/adobeaudition.svg';
 import afterEffects from '../app/assets/svg/skills/after-effects.svg';
 import angular from '../app/assets/svg/skills/angular.svg';
@@ -87,6 +95,16 @@ import fastapi from '../app/assets/svg/skills/fastapi.svg'
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'adobe illustrator':
+      return adobeIllustrator;
+    case 'davinci resolve':
+      return davinciResolve;
+    case 'microsoft word':
+      return word;
+    case 'microsoft excel':
+      return excel;
+    case 'microsoft powerpoint':
+      return powerPoint;
     case 'gcp':
       return gcp;
     case 'html':
@@ -214,7 +232,7 @@ export const skillsImage = (skill) => {
     case 'fastify':
       return fastify;
     case 'figma':
-      return figma;
+      return figmaPng;
     case 'flutter':
       return flutter;
     case 'haxe':
@@ -234,7 +252,7 @@ export const skillsImage = (skill) => {
     case 'wolframalpha':
       return wolframalpha;
     case 'canva':
-      return canva;
+      return canvaPng;
     case 'pandas':
       return pandas;
     case 'sklearn':
@@ -251,6 +269,32 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'digital marketing':
+      return figmaPng; // Using Figma as placeholder
+    case 'social media management':
+      return canvaPng; // Using Canva as placeholder
+    case 'content creation':
+      return capcut; // Using Capcut as placeholder
+    case 'video editing':
+      return davinciResolve;
+    case 'storytelling':
+      return word; // Using Word as placeholder
+    case 'communication':
+      return powerPoint; // Using PowerPoint as placeholder
+    case 'project management':
+      return excel; // Using Excel as placeholder
+    case 'team leadership':
+      return adobeIllustrator; // Using Illustrator as placeholder
+    case 'time management':
+      return excel; // Using Excel as placeholder
+    case 'research':
+      return word; // Using Word as placeholder
+    case 'editing':
+      return davinciResolve; // Using DaVinci as placeholder
+    case 'problem solving':
+      return figmaPng; // Using Figma as placeholder
+    case 'generative ai':
+      return canvaPng; // Using Canva as placeholder
     default:
       break;
   }

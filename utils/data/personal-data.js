@@ -1,17 +1,16 @@
 export const personalData = {
   name: "Iwashu Jain",
   profile: '/profile.png',
-  designation: "Software Developer",
-  description: "My name is Iwashu Jain. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  designation: "Designer & Content Creator",
+  description: "I am Iwashu Jain, currently based in Bhopal, pursuing a Bachelor's degree in Journalism and Mass Communication from Jagran Lakecity University (JLU). I have always believed in learning through doing, which has led me to explore multiple professional paths, internships, and creative ventures early in my career. My journey so far has been shaped by curiosity, adaptability, and a deep passion for storytelling—whether through visuals, design, performance, or digital media. I am also a dance teacher for the past four years, training over 1,000 students. My ambition is to grow into a designer and video editor who blends design, storytelling, and technology seamlessly—someone who understands how to stay relevant and lead in a constantly changing digital landscape.",
   email: 'iwashuj@gmail.com',
   phone: '+919131179026',
   address: 'Bhopal, Madhya Pradesh, India',
   github: 'https://github.com/iwashuj',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  facebook: 'https://www.facebook.com/iwashujain/',
+  linkedIn: 'https://www.linkedin.com/in/iwashu-jain/',
+  twitter: 'https://twitter.com/iwashujain',
+  stackOverflow: '',
+  leetcode: "",
+  resume: "https://drive.google.com/file/d/1vkTHVudWU0qVdq_OqQxsMA2F16QSBBrf/view?usp=sharing"
 }
