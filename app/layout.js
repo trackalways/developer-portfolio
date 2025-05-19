@@ -12,31 +12,28 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Portfolio of Iwashu Jain - Designer & Content Creator",
   description: "Portfolio of Iwashu Jain - Designer & Content Creator based in Bhopal, specializing in visual storytelling and digital media.",
-  openGraph: {
-    title: "Portfolio of Iwashu Jain",
-    description: "Designer & Content Creator",
-    type: "website",
-    // Setting these properties to prevent image previews
-    images: [],
-  },
-  twitter: {
-    card: "summary",
-    title: "Portfolio of Iwashu Jain",
-    description: "Designer & Content Creator",
-    // No images for Twitter cards
-    images: [],
-  },
-  // Add robots meta to control crawler behavior
+  // Completely disable metadata that could be used for previews
+  openGraph: null,
+  twitter: null,
+  // Block all indexing and crawling of images
   robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-image-preview': 'none',
-      'max-snippet': -1,
-    },
+    index: false,
+    follow: false,
+    nocache: true,
+    noarchive: true,
+    'max-image-preview': 'none',
+    'max-snippet': 0,
+    'max-video-preview': 0,
+    noimageindex: true,
+    notranslate: true,
+    'unavailable_after': '1970-01-01T00:00:00Z',
   },
+  // Ensure no automatic theme color is used
+  themeColor: 'black',
+  // No manifest for PWA
+  manifest: null,
+  // No icons
+  icons: null,
 };
 
 export default function RootLayout({ children }) {

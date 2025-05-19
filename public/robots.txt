@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /*.png$
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.gif$
+Disallow: /*.svg$
+Disallow: /*.webp$
+
+User-agent: Twitterbot
+Disallow: /
+
+User-agent: WhatsApp
+Disallow: /
+
+User-agent: facebookexternalhit
+Disallow: /
